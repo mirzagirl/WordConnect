@@ -1,0 +1,27 @@
+.word-connect-container {
+}
+.columns {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 10px;
+}
+.data {
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px hotpink;
+  cursor: pointer;
+  transition: transform 2s easein;
+}
+
+.data:hover {
+  transform: scale(1.1);
+}
+.pointer-none {
+  pointer-events: none;
+}
+
+/* @media (max-width: 768px) {
+  .columns {
+    grid-template-columns: repeat(2, auto);
+  }
+} */

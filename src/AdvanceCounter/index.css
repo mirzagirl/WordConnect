@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.buttons-in-dec {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 100px;
+  padding: 10px;
+  /* button {
+    cursor: not-allowed;
+  } */
+}
+.buttons-async-in-dec {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  /* button {
+    cursor: not-allowed;
+  } */
+}
+.range {
+}
+
+.pointernone {
+  pointer-events: none;
+}
